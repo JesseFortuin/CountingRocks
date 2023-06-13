@@ -1,3 +1,5 @@
+using CountingRocks.BL;
+
 namespace CountingRocks.Test
 {
     public class LabelCalculatorTest
@@ -11,7 +13,7 @@ namespace CountingRocks.Test
             ILabelCalculator label = new LabelCalculator();
 
             //act
-            long actual = label.Calculate(input);
+            long actual = label.Rocks(input);
 
             //assert
             Assert.Equal(expected, actual);
