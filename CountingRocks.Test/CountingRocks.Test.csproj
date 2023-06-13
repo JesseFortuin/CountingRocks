@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CountingRocks.BL\CountingRocks.BL.csproj" />
+  </ItemGroup>
+
 </Project>
